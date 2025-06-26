@@ -115,30 +115,20 @@
         <button type="submit" class="button">Agendar</button>
       </form>
 
-      <aside class="schedule">
-        <header>
-          <h1>Agendamentos</h1>
-          <p>Visualize os agendamentos de acordo com o dia selecionado</p>
-        </header>
+        <aside class="schedule">
+          <header>
+            <h1>Agendamentos</h1>
+            <p>Visualize os agendamentos de acordo com o dia selecionado</p>
+          </header>
+          <p id="schedule-empty" class="schedule-empty" hidden>Nenhum agendamento disponível</p>
 
-        <section class="schedule-period">
+          <section class="schedule-period">
           <header>
             <img src="./src/assets/morning.svg" alt="Manhã" />
             <strong>Manhã</strong>
             <span>09h-12h</span>
           </header>
-          <ul id="period-morning" class="period">
-            <!-- Exemplo  -->
-            <li>
-              <strong>11:00</strong>
-              <span>Rodrigo Gonçalves</span>
-              <img
-                src="./src/assets/cancel.svg"
-                alt="Cancelar"
-                class="cancel-icon"
-              />
-            </li>
-          </ul>
+          <ul id="period-morning" class="period"></ul>
         </section>
 
         <section class="schedule-period">
@@ -147,18 +137,7 @@
             <strong>Tarde</strong>
             <span>13h-18h</span>
           </header>
-          <ul id="period-afternoon" class="period">
-            <!-- Exemplo -->
-            <li>
-              <strong>14:00</strong>
-              <span>Rodrigo Gonçalves</span>
-              <img
-                src="./src/assets/cancel.svg"
-                alt="Cancelar"
-                class="cancel-icon"
-              />
-            </li>
-          </ul>
+          <ul id="period-afternoon" class="period"></ul>
         </section>
 
         <section class="schedule-period">
@@ -167,18 +146,7 @@
             <strong>noite</strong>
             <span>19h-21h</span>
           </header>
-          <ul id="period-night" class="period">
-            <!-- Exemplo -->
-            <li>
-              <strong>19:00</strong>
-              <span>Rodrigo Gonçalves</span>
-              <img
-                src="./src/assets/cancel.svg"
-                alt="Cancelar"
-                class="cancel-icon"
-              />
-            </li>
-          </ul>
+          <ul id="period-night" class="period"></ul>
         </section>
       </aside>
     </div>
